@@ -2,7 +2,7 @@
 
 body { 
      font-family: 'Charm', cursive;
-     font-size: 1.5em !important;
+     font-size: 1.6em !important;
 }
 
 .jumbotron {
@@ -12,3 +12,44 @@ body {
 .fundo--tomato {
       background-color: #00ced1 !important;
 }    
+
+.gradiente {
+       background-image: linear-gradient(to left, #87CEFA, #87CEFA)
+  }
+
+.logo_header {
+      background-image: url("../img/santuario.jpeg");
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 60px;
+      position: relative;
+}
+
+.logo { 
+     opacity: 1 !important;
+}
+ 
+.rodape {
+      background-image: url("../img/foto10.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+
+}
+
+.rodape { 
+     opacity: 1 !important;
+}
+
+.contato {
+      text-align: center;
+      position: absolute;
+      color: blue;
+      font-size: 22px;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+}
+
